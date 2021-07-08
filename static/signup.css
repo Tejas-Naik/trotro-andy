@@ -1,0 +1,56 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#signup {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+h2.heading {
+  margin-bottom: 60px;
+}
+
+.form {
+  width: 65%;
+  margin: 30px 100px 50px 60px;
+}
+.form .mb-3 input {
+  background-color: #f1eeee;
+  border: none;
+}
+i {
+  margin-top: 10px;
+  color: rgb(5, 3, 95);
+}
+.form .input-feild {
+  display: grid;
+  grid-template-columns: 10% 90%;
+}
+.form .signup-button {
+  background-color: rgb(5, 3, 95);
+  width: 150px;
+  margin-left: 140px;
+}
+.form .links {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 380px) {
+  #signup {
+    display: flex;
+    flex-direction: column;
+  }
+  .form .mb-3 input {
+    width: 300px;
+  }
+  .form {
+    margin: 50px 0 50px 10px;
+  }
+  .heading {
+    margin-left: 100px;
+    text-align: center;
+  }
+}

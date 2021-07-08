@@ -1,0 +1,54 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+#main-quote {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.about-heading {
+  text-align: center;
+  margin: 5%;
+}
+.founder-image {
+  width: 80%;
+  margin: 0 10% 10%;
+  border-radius: 20px;
+}
+.quote-text {
+  margin: 10% 20% 0 0;
+}
+.subheading {
+  margin: 3% 3% 3% 0%;
+}
+.team-quote {
+  background-color: rgb(5, 3, 95);
+  color: white;
+  margin-bottom: 0;
+}
+.team-quote .quote-mot {
+  margin-bottom: 0;
+  text-align: center;
+}
+.team-quote .quote-mot-heaing {
+  text-align: center;
+}
+/* Mobile resoponsiveness */
+@media only screen and (max-width: 380px) {
+  #main-quote {
+    display: flex;
+    flex-direction: column;
+  }
+  .quote-text {
+    text-align: left;
+    width: 300px;
+    margin: 0 40px;
+  }
+  .team-quote .quote-mot {
+    padding: 20px;
+  }
+  .subheading {
+    margin-left: 30px;
+  }
+}

@@ -1,0 +1,36 @@
+{% extends 'base.html' %} {% block title %}TroTro{% endblock %} {% block body %}
+
+<section id="signup">
+  <div class="empty"></div>
+  <div class="form login">
+    <h2 class="heading">Log In</h2>
+    <form class="form">
+      <div class="mb-3 input-feild">
+        <i class="fas fa-user"></i>
+        <input
+          type="email"
+          class="form-control email"
+          id="exampleInputEmail1"
+          placeholder="Email or Phone"
+          aria-describedby="emailHelp"
+        />
+      </div>
+      <div class="mb-3 input-feild">
+        <i class="fas fa-unlock-alt"></i>
+        <input
+          type="password"
+          class="form-control"
+          placeholder="Password"
+          id="exampleInputPassword1"
+        />
+      </div>
+      <button type="submit" class="btn btn-primary signup-button">
+        Log In
+      </button>
+    </form>
+    <a class="links" href="{{ url_for('signup') }}"
+      ><i class="fas fa-arrow-left"></i>Create an account?</a
+    >
+  </div>
+</section>
+{%endblock%}

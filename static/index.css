@@ -1,0 +1,448 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+/* Navbar */
+.navbar-brand {
+  font-weight: 800;
+  margin-left: 50px;
+}
+.nav-link {
+  margin-left: 20px;
+}
+.signin-button {
+  margin: 10px;
+}
+/* Index Page */
+#home-page {
+  background-color: #f0f0f0;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  padding-bottom: 150px;
+}
+/* Heading */
+#home-page .fare-content .security {
+  margin: 300px 0 10px 150px;
+}
+#home-page .fare-content .security-desc {
+  width: 350px;
+  margin-left: 150px;
+}
+
+/* Fare Form */
+#home-page .fare-form {
+  width: 300px;
+}
+#home-page .fare-form-div {
+  background-color: white;
+  margin: 50px 100px 0 20px;
+  padding: 20px;
+  border-radius: 5px;
+}
+#home-page .fare-form-div .fare-form-heading {
+  text-align: center;
+  margin: 30px;
+}
+#home-page .fare-form-div .fare-form .province {
+  height: 45px;
+  background-color: #f9f9f9;
+}
+#home-page .fare-form-div .fare-form .from {
+  background-color: #f9f9f9;
+  width: 90%;
+  margin-left: 8%;
+  height: 45px;
+}
+#home-page .fare-form-div .fare-form .to {
+  background-color: #f9f9f9;
+  width: 90%;
+  margin-left: 8%;
+  height: 45px;
+}
+#home-page .fare-form-div .fare-form .submit {
+  margin: 50px 0 50px 190px;
+  width: 150px;
+  height: 50px;
+}
+/* Our Services */
+.services-heading {
+  margin-top: 50px;
+  text-align: center;
+  color: purple;
+}
+#our-services {
+  margin: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#our-services .card {
+  border: none;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  margin: 20px;
+}
+#our-services .service img {
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+  margin: 20px 50px 0 20%;
+}
+#our-services .service .desc h2 {
+  text-align: left;
+  margin: 0;
+}
+/* Android App */
+.download-app-heading {
+  text-align: center;
+  background-color: rgb(5, 3, 95);
+  color: white;
+  margin-bottom: 0;
+  padding: 20px;
+}
+#android-app {
+  color: white;
+  background-color: rgb(5, 3, 95);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#android-app .android-specs h1 {
+  margin: 120px;
+}
+#android-app .android-specs .app-features {
+  text-align: left;
+  margin-left: 20%;
+}
+#android-app .android-specs .features {
+  margin-left: 15%;
+}
+#android-app .android-specs .features li {
+  margin: 20px;
+  list-style-type: circle;
+}
+#android-app .android-specs .download-button .image-android {
+  width: 200px;
+  margin: 5% 0 0 18%;
+}
+#android-app .android-specs .download-button .image-ios {
+  width: 200px;
+  margin-top: 5%;
+  margin-left: 65px;
+}
+/* Lost Items */
+#lost-items {
+  margin: 50px;
+}
+#lost-items .lost-item-heading {
+  text-align: center;
+  color: rgb(5, 3, 95);
+}
+#lost-items .lost-item-desc {
+  width: 450px;
+  margin: 3% 0 3% 10%;
+}
+/* Steps */
+#lost-items .steps {
+  margin: 60px 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+#lost-items .steps .step-heading {
+  font-size: 3rem;
+  color: rgb(5, 3, 95);
+}
+#lost-items .steps .step-desc {
+  text-align: center;
+  font-size: 1.2rem;
+  color: rgb(5, 3, 95);
+}
+.vl {
+  border-left: 3px solid rgb(5, 3, 95);
+  height: 100px;
+}
+#lost-items .steps .step {
+  margin: 20px;
+}
+#lost-items .steps .step .steps-consider {
+  margin-left: 15px;
+  display: grid;
+  grid-template-columns: 10% 90%;
+}
+#lost-items .contact-us {
+  width: 200px;
+  margin-left: 75%;
+}
+#partners-quotes {
+  background-color: rgb(5, 3, 95);
+}
+#partners-quotes .quotes-heading {
+  color: white;
+}
+.item {
+  background-color: white;
+  border-radius: 20px;
+}
+.owl-dot {
+  background-color: white;
+}
+/* Sponsors */
+#sponsors {
+  margin: 10%;
+  margin-left: 230px;
+}
+.sponser-heading {
+  text-align: center;
+}
+#sponsors .sponsor-image {
+  width: 100px;
+  margin: 10px 100px 50px 100px;
+}
+/* Footer */
+#footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 50vh;
+  flex-direction: column;
+  background: #ede7f6;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 50px 100px;
+  background: rgb(5, 3, 95);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+footer .container-footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+footer .container-footer .sec {
+  margin-right: 30px;
+}
+footer .container-footer .sec.aboutus {
+  width: 40%;
+}
+footer .container-footer h2 {
+  position: relative;
+  color: white;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+footer .container-footer h2:before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 50px;
+  height: 2px;
+  background: rgb(5, 3, 95);
+}
+footer p {
+  color: white;
+}
+.sci {
+  margin-top: 20px;
+  display: flex;
+  padding-left: 0;
+}
+.sci li {
+  list-style: none;
+}
+.sci li a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.sci li a:hover {
+  background: rgb(5, 3, 95);
+}
+.sci li a .fa {
+  color: #fff;
+  font-size: 20px;
+}
+.quicklinks {
+  position: relative;
+  width: 25%;
+  padding-left: 0px;
+}
+.quicklinks ul li {
+  list-style: none;
+}
+.quicklinks ul li a {
+  color: #999;
+  text-decoration: none;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.quicklinks ul li a:hover {
+  color: white;
+}
+.contact {
+  width: calc(35% - 60px);
+  margin-right: 0 !important;
+}
+.contact .info {
+  position: relative;
+}
+.contact .info li {
+  display: flex;
+  margin-bottom: 16px;
+}
+.contact .info li span:nth-child(1) {
+  color: white;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.contact .info li span {
+  color: #999;
+}
+.contact .info li a {
+  color: #999;
+  text-decoration: none;
+}
+.contact .info li a:hover {
+  color: #fff;
+}
+.copyright {
+  width: 100%;
+  background: lightyellow;
+  padding: 8px 100px;
+  text-align: center;
+  color: black;
+}
+
+@media (max-width: 991px) {
+  footer {
+    padding: 40px;
+  }
+  footer .container-footer {
+    flex-direction: column;
+  }
+  footer .container-footer .sec {
+    margin-right: 0px;
+    margin-bottom: 40px;
+  }
+  footer .container-footer .sec.aboutus,
+  .quicklinks,
+  .contact {
+    width: 100%;
+  }
+  .copyright {
+    width: 100%;
+    background: #181818;
+    padding: 8px 40px;
+    text-align: center;
+    color: white;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  #home-page {
+    display: flex;
+    flex-direction: column;
+  }
+  #home-page .fare-content .security {
+    margin: 20px;
+  }
+  #home-page .fare-content .security-desc {
+    margin: 20px;
+    width: 300px;
+  }
+  #home-page .fare-form-div {
+    background-color: white;
+    border-radius: 5px;
+    margin-right: 20px;
+    padding: 10px;
+  }
+  #home-page .fare-form-div .fare-form-heading {
+    margin: 20px;
+  }
+  #home-page .fare-form-div .fare-form .province {
+    width: 300px;
+  }
+  #home-page .fare-form-div .fare-form .from {
+    width: 270px;
+  }
+  #home-page .fare-form-div .fare-form .to {
+    width: 270px;
+  }
+  #home-page .fare-form-div .fare-form .submit {
+    margin: 50px 0 50px 150px;
+  }
+  #our-services {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  #our-services .card {
+    width: 300px;
+    margin-right: 10px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+  }
+  #our-services .service img {
+    width: 80px;
+    height: 80px;
+    margin-top: 50px;
+  }
+  #our-services .card .desc {
+    font-size: 12px;
+    margin-left: 10px;
+    padding-left: 10px;
+  }
+  #our-services .card .desc p {
+    margin-left: 10px;
+  }
+  #android-app {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #android-app .android-specs h1 {
+    margin: 30px;
+    font-size: 2rem;
+    text-align: center;
+  }
+  #android-app .android-specs .download-button {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  #lost-items {
+    margin: 20px;
+  }
+  #lost-items .steps {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  #lost-items .lost-item-desc {
+    width: 280px;
+  }
+  #lost-items .contact-us {
+    margin: 0;
+  }
+  #sponsors {
+    margin: 10%;
+  }
+  .sponser-heading {
+    text-align: center;
+  }
+  #sponsors .sponsor-image {
+    width: 100px;
+  }
+}

@@ -1,0 +1,56 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+#contact-us {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+#contact-us .map {
+  background-color: magenta;
+}
+#contact-us .contact-form {
+  padding-left: 10%;
+}
+#contact-us .contact-form .heading {
+  margin: 50px 0 50px 0;
+}
+#contact-us .contact-form .contact-details {
+  width: 50%;
+}
+#contact-us .contact-form .c-form .inputfeild {
+  border: none;
+  background-color: #e0e0e0;
+  height: 40px;
+  border-radius: 10px;
+}
+#contact-us .contact-form .c-form #message-box {
+  width: 510px;
+  background-color: #e0e0e0;
+  border: none;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+#contact-us .contact-form .c-form .send-button {
+  width: 200px;
+  background-color: rgb(5, 3, 95);
+  margin: 5% 5% 5% 0;
+}
+
+@media only screen and (max-width: 380px) {
+  #contact-us {
+    display: flex;
+    flex-direction: column;
+  }
+  #contact-us .contact-form .c-form .inputfeild {
+    width: 300px;
+    margin: 10px 10px 10px 0;
+  }
+  #contact-us .contact-form .c-form #message-box {
+    width: 300px;
+  }
+  #contact-us .contact-form .c-form .send-button {
+    margin-left: 50px;
+  }
+}
